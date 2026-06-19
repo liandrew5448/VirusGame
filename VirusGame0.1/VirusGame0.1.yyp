@@ -61,7 +61,11 @@
   },
   "name":"VirusGame0.1",
   "resources":[
+    {"id":{"name":"oBadNPC","path":"objects/oBadNPC/oBadNPC.yy",},},
     {"id":{"name":"oBricks","path":"objects/oBricks/oBricks.yy",},},
+    {"id":{"name":"oGreenery","path":"objects/oGreenery/oGreenery.yy",},},
+    {"id":{"name":"oPath","path":"objects/oPath/oPath.yy",},},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Testroom","path":"rooms/Testroom/Testroom.yy",},},
     {"id":{"name":"colored","path":"sprites/colored/colored.yy",},},
     {"id":{"name":"Free_Smoke_Fx__Pixel_05","path":"sprites/Free_Smoke_Fx__Pixel_05/Free_Smoke_Fx__Pixel_05.yy",},},
