@@ -1,0 +1,1 @@
+image_alpha = 0.8; // Dim slightly when hovered
