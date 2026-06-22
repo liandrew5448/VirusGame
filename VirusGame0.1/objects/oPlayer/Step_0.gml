@@ -5,6 +5,11 @@ if place_meeting(x,y,oGreenery)
 	movespeed = 0.5;	
 }
 
+if place_meeting(x,y,oPath)
+{
+	movespeed = 1.5;
+}
+
 ysp = 0;
 xsp = 0;
 
