@@ -57,7 +57,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"VirusGame0.1",
   "resources":[
@@ -66,6 +66,7 @@
     {"id":{"name":"MenuControl","path":"objects/MenuControl/MenuControl.yy",},},
     {"id":{"name":"oBadNPC","path":"objects/oBadNPC/oBadNPC.yy",},},
     {"id":{"name":"oBricks","path":"objects/oBricks/oBricks.yy",},},
+    {"id":{"name":"oFriendlyNPC","path":"objects/oFriendlyNPC/oFriendlyNPC.yy",},},
     {"id":{"name":"oGreenery","path":"objects/oGreenery/oGreenery.yy",},},
     {"id":{"name":"oPath","path":"objects/oPath/oPath.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
