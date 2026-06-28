@@ -88,6 +88,7 @@
     {"id":{"name":"prototype_character_shadow","path":"sprites/prototype_character_shadow/prototype_character_shadow.yy",},},
     {"id":{"name":"prototype_character_yellow","path":"sprites/prototype_character_yellow/prototype_character_yellow.yy",},},
     {"id":{"name":"prototype_character","path":"sprites/prototype_character/prototype_character.yy",},},
+    {"id":{"name":"sBadNPC","path":"sprites/sBadNPC/sBadNPC.yy",},},
     {"id":{"name":"sBricks","path":"sprites/sBricks/sBricks.yy",},},
     {"id":{"name":"sDeathsmoke","path":"sprites/sDeathsmoke/sDeathsmoke.yy",},},
     {"id":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},},
