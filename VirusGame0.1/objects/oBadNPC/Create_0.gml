@@ -1,3 +1,3 @@
 DestX = x;
 DestY = y;
-movespeed = 2;
+movespeed = 0.5;
