@@ -30,7 +30,7 @@ if irandom(room_speed * 2) = 1 {
 	}
 }
 
-if place_meetiing(x, y, oPlayer)
+if place_meeting(x, y, oPlayer)
 {
 	room_restart();
 }
