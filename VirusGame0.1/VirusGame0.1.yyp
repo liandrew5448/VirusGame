@@ -57,11 +57,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"VirusGame0.1",
   "resources":[
     {"id":{"name":"Button","path":"objects/Button/Button.yy",},},
+    {"id":{"name":"DialogueManager","path":"objects/DialogueManager/DialogueManager.yy",},},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
     {"id":{"name":"MenuControl","path":"objects/MenuControl/MenuControl.yy",},},
     {"id":{"name":"oBadNPC","path":"objects/oBadNPC/oBadNPC.yy",},},

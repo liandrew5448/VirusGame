@@ -1,3 +1,22 @@
+// 1. ABSOLUTE TOP: If the dialogue system is active, freeze completely and skip the AI
+if (global.is_paused) {
+    hspeed = 0;
+    vspeed = 0;
+    speed = 0;
+    
+    if (path_index != -1) {
+        path_speed = 0;
+    }
+    
+    image_speed = 0; 
+    exit; // Stops the wandering/movement code below from running at all!
+} else {
+    // Unfreeze animations when the box closes
+    if (image_speed == 0) {
+        image_speed = 1;
+    }
+}
+
 if irandom(room_speed * 2) = 1 {
 	var Range = 256; //length of travel
 	DestX = x + irandom_range(-Range, Range);
