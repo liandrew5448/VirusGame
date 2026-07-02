@@ -1,5 +1,5 @@
 window_set_size(1280,720)
 
-xsp = 0;
+xsp = 1;
 ysp = 0;
 
