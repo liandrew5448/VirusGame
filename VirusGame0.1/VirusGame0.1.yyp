@@ -77,6 +77,7 @@
     {"id":{"name":"SettingsBtn","path":"objects/SettingsBtn/SettingsBtn.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"Settings","path":"rooms/Settings/Settings.yy",},},
+    {"id":{"name":"TestBattle","path":"rooms/TestBattle/TestBattle.yy",},},
     {"id":{"name":"Testroom","path":"rooms/Testroom/Testroom.yy",},},
     {"id":{"name":"btnProp","path":"sprites/btnProp/btnProp.yy",},},
     {"id":{"name":"colored","path":"sprites/colored/colored.yy",},},
@@ -110,6 +111,7 @@
     {"roomId":{"name":"Testroom","path":"rooms/Testroom/Testroom.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Settings","path":"rooms/Settings/Settings.yy",},},
+    {"roomId":{"name":"TestBattle","path":"rooms/TestBattle/TestBattle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
