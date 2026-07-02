@@ -1,6 +1,6 @@
 DestX = x;
 DestY = y;
-movespeed = 2;
+movespeed = 0.5;
 
 npc_lines = [
     "Hello there, traveler!",
