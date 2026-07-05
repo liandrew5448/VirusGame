@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"LoadBtn",
+  "eventList":[],
   "managed":true,
-  "name":"oPlayer",
-  "overriddenProperties":[],
+  "name":"LoadBtn",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"buttonText","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Load",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"Button",
+    "path":"objects/Button/Button.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerIdle",
-    "path":"sprites/sPlayerIdle/sPlayerIdle.yy",
+    "name":"btnProp",
+    "path":"sprites/btnProp/btnProp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

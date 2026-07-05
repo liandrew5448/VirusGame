@@ -1,0 +1,3 @@
+if (room != MainMenu) {
+    SaveRoom();
+}

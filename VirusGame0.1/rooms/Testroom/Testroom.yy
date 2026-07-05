@@ -155,8 +155,10 @@
     {"name":"inst_12E9D23B","path":"rooms/Testroom/Testroom.yy",},
     {"name":"inst_7CD4E588","path":"rooms/Testroom/Testroom.yy",},
     {"name":"inst_24423905","path":"rooms/Testroom/Testroom.yy",},
-    {"name":"inst_F466C9B","path":"rooms/Testroom/Testroom.yy",},
     {"name":"inst_35621D5E","path":"rooms/Testroom/Testroom.yy",},
+    {"name":"inst_26A14490","path":"rooms/Testroom/Testroom.yy",},
+    {"name":"inst_51F36412","path":"rooms/Testroom/Testroom.yy",},
+    {"name":"inst_F466C9B","path":"rooms/Testroom/Testroom.yy",},
   ],
   "isDnd":false,
   "layers":[
