@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"QuitBtn",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"buttonText","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
