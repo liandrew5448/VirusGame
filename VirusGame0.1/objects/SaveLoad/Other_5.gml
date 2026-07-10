@@ -1,3 +1,4 @@
-if (room != MainMenu) {
+if (skipRoomSave == false) {
     SaveRoom();
 }
+skipRoomSave = false;

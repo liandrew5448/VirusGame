@@ -98,11 +98,8 @@ function LoadGame(fileNum = 0) {
 	
 	var loadRoom = asset_get_index(global.statData.save_rm);
 	room_goto(loadRoom);
-	
-	if instance_exists(oPlayer) { instance_destroy(oPlayer); };
-	instance_create_depth(global.statData.save_x, global.statData.save_y, layer, oPlayer);
-		
-	LoadRoom();
+	SaveLoad.skipRoomSave = true;
+
 	
 	
 }

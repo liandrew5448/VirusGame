@@ -6,7 +6,8 @@ if (keyboard_check_pressed(vk_escape)) {
 	global.last_game_room = room; 
 	
 	if (room == FileRoom) {
-		room_goto(global.prev_room);
+		global.last_game_room = global.prev_room;
+		room_goto(MainMenu);
 	}
 	else {
 		room_goto(MainMenu);   

@@ -4,6 +4,8 @@ global.load_choose = false;
 //only for fileroom handling
 global.prev_room = noone;
 
+skipRoomSave = false;
+
 global.statData = {
 	save_x : 0,
 	save_y : 0,
