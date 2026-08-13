@@ -77,6 +77,7 @@
     {"id":{"name":"oBattleSwitcher","path":"objects/oBattleSwitcher/oBattleSwitcher.yy",},},
     {"id":{"name":"oBricks","path":"objects/oBricks/oBricks.yy",},},
     {"id":{"name":"oFolder","path":"objects/oFolder/oFolder.yy",},},
+    {"id":{"name":"oFolderSpawn","path":"objects/oFolderSpawn/oFolderSpawn.yy",},},
     {"id":{"name":"oFriendlyNPC","path":"objects/oFriendlyNPC/oFriendlyNPC.yy",},},
     {"id":{"name":"oGreenery","path":"objects/oGreenery/oGreenery.yy",},},
     {"id":{"name":"oPath","path":"objects/oPath/oPath.yy",},},

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayerSelector",
+  "%Name":"oFolderSpawn",
   "eventList":[],
   "managed":true,
-  "name":"oPlayerSelector",
+  "name":"oFolderSpawn",
   "overriddenProperties":[],
   "parent":{
     "name":"BattleObjects",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sPlayerSelector",
-    "path":"sprites/sPlayerSelector/sPlayerSelector.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
