@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"folder",
+  "%Name":"oFolder",
   "eventList":[],
   "managed":true,
-  "name":"folder",
+  "name":"oFolder",
   "overriddenProperties":[],
   "parent":{
     "name":"BattleObjects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sFolder",
+    "path":"sprites/sFolder/sFolder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
