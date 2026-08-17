@@ -32,5 +32,6 @@ if irandom(room_speed * 2) = 1 {
 
 if place_meeting(x, y, oPlayer)
 {
+	oBattleManager.difficulty = 5;
 	room_goto(TestBattle);
 }
