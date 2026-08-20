@@ -8,8 +8,8 @@
   "name":"RoomControl",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"GeneralManagers",
+    "path":"folders/Objects/GeneralManagers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -3,7 +3,7 @@ if (room == MainMenu || room == StartMenu)
     if (mouse_check_button_pressed(mb_left)) 
     {
 		var sbtn = instance_position(mouse_x, mouse_y, SaveBtn)
-        var lbtn = instance_position(mouse_x, mouse_y, LoadBtn);
+        var lbtn = instance_position(mouse_x, mouse_y, oLoadBtn);
         
 		if (sbtn != noone) 
         {

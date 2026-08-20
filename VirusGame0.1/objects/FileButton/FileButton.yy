@@ -12,8 +12,8 @@
     "path":"folders/SaveSystem.yy",
   },
   "parentObjectId":{
-    "name":"Button",
-    "path":"objects/Button/Button.yy",
+    "name":"oButton",
+    "path":"objects/oButton/oButton.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

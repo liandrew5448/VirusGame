@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"LoadBtn",
+  "%Name":"oLoadBtn",
   "eventList":[],
   "managed":true,
-  "name":"LoadBtn",
+  "name":"oLoadBtn",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"buttonText","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Load",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"buttonText","path":"objects/oButton/oButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Load",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"Button",
-    "path":"objects/Button/Button.yy",
+    "name":"oButton",
+    "path":"objects/oButton/oButton.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
