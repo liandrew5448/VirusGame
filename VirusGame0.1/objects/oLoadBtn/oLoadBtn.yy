@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"MenuControl",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oLoadBtn",
+  "eventList":[],
   "managed":true,
-  "name":"MenuControl",
-  "overriddenProperties":[],
+  "name":"oLoadBtn",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"buttonText","path":"objects/oButton/oButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Load",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oButton",
+    "path":"objects/oButton/oButton.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"btnProp",
+    "path":"sprites/btnProp/btnProp.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

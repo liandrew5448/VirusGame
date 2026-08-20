@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"LoadBtn",
+  "%Name":"oPlayerSelector",
   "eventList":[],
   "managed":true,
-  "name":"LoadBtn",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"buttonText","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Load",},
-  ],
+  "name":"oPlayerSelector",
+  "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"BattleObjects",
+    "path":"folders/Objects/BattleObjects.yy",
   },
-  "parentObjectId":{
-    "name":"Button",
-    "path":"objects/Button/Button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"btnProp",
-    "path":"sprites/btnProp/btnProp.yy",
+    "name":"sPlayerSelector",
+    "path":"sprites/sPlayerSelector/sPlayerSelector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

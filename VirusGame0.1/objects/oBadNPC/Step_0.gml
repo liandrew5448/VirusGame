@@ -29,8 +29,3 @@ if irandom(room_speed * 2) = 1 {
 		image_index = 0;
 	}
 }
-
-if place_meeting(x, y, oPlayer)
-{
-	room_goto(TestBattle);
-}

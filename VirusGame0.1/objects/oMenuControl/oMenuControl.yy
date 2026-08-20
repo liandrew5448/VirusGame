@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oBattleManager",
+  "%Name":"oMenuControl",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBattleManager",
+  "name":"oMenuControl",
   "overriddenProperties":[],
   "parent":{
-    "name":"BattleObjects",
-    "path":"folders/Objects/BattleObjects.yy",
+    "name":"GeneralManagers",
+    "path":"folders/Objects/GeneralManagers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

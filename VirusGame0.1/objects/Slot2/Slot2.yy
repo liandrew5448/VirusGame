@@ -6,7 +6,7 @@
   "name":"Slot2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FileButton","path":"objects/FileButton/FileButton.yy",},"propertyId":{"name":"fileSlot","path":"objects/FileButton/FileButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"buttonText","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"File 2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"buttonText","path":"objects/oButton/oButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"File 2",},
   ],
   "parent":{
     "name":"SaveSystem",

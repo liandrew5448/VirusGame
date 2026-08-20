@@ -41,9 +41,9 @@ if (!global.is_paused && dialogue_cooldown <= 0) {
         global.is_paused = true;
         global.active_npc = _npc; // Target this specific NPC instance
         
-        var _manager = instance_find(DialogueManager, 0);
+        var _manager = instance_find(oDialogueManager, 0);
         if (_manager == noone) {
-            _manager = instance_create_layer(0, 0, "Instances", DialogueManager);
+            _manager = instance_create_layer(0, 0, "Instances", oDialogueManager);
         }
         _manager.dialogue_index = 0;
     }
