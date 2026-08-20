@@ -1,4 +1,3 @@
-difficulty = 0;
 
 //create list of folders
 folderList = [folderPosition1, folderPosition2, folderPosition3, folderPosition4, folderPosition5,
@@ -8,7 +7,7 @@ folderList = [folderPosition1, folderPosition2, folderPosition3, folderPosition4
 
 
 //implimenting the folder generation
-for(var i = 0; i < difficulty; i++)
+for(var i = 0; i < oGameManager.difficulty; i++)
 {
-	
+	instance_create_layer(folderList[i].x, folderList[i].y, "Instances",oFolder);
 }
