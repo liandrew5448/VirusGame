@@ -10,4 +10,10 @@ folderList = [folderPosition1, folderPosition2, folderPosition3, folderPosition4
 for(var i = 0; i < oGameManager.difficulty; i++)
 {
 	instance_create_layer(folderList[i].x, folderList[i].y, "Instances",oFolder);
+	folderList[i].active = true;
 }
+
+oPlayerSelector.x = folderPosition1.x;
+oPlayerSelector.y = folderPosition1.y;
+
+var maxFolders = oGameManager.difficulty;
