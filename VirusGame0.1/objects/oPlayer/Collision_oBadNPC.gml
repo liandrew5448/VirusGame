@@ -6,5 +6,5 @@ _switcher.enemy_data = other.id;
 _switcher.original_room = room;
 
 instance_destroy(oBadNPC);
-oGameManager.difficulty = 5;
+oGameManager.difficulty = 20;
 room_goto(TestBattle);

@@ -1,3 +1,5 @@
+show_debug_message("===== FOLDER GENERATION =====");
+show_debug_message("Difficulty = " + string(oGameManager.difficulty));
 
 //create list of folders
 folderList = [folderPosition1, folderPosition2, folderPosition3, folderPosition4, folderPosition5,
@@ -10,10 +12,10 @@ folderList = [folderPosition1, folderPosition2, folderPosition3, folderPosition4
 for(var i = 0; i < oGameManager.difficulty; i++)
 {
 	instance_create_layer(folderList[i].x, folderList[i].y, "Instances",oFolder);
-	folderList[i].active = true;
+	show_debug_message("Creating folder " + string(i + 1));
 }
 
 oPlayerSelector.x = folderPosition1.x;
 oPlayerSelector.y = folderPosition1.y;
 
-var maxFolders = oGameManager.difficulty;
+maxFolders = oGameManager.difficulty;
