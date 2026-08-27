@@ -1,4 +1,6 @@
 global.last_game_room = noone;
 global.is_paused = false;
 
-difficulty = 10;
+//[Starting Folder #, Decrease Rate, Total Depth]
+levelDifficulty = [0,0,0];
+
