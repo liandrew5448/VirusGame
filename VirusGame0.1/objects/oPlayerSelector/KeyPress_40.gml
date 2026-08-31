@@ -1,5 +1,5 @@
 //set to the total number of folder spawned
-if(folderDOWN < oBattleManager.maxFolders + 1)
+if(folderDOWN < oBattleManager.fNumSpawn + 1)
 {
 	setFolder(5);
 }

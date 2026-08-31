@@ -1,6 +1,16 @@
 global.last_game_room = noone;
 global.is_paused = false;
 
-//[Starting Folder #, Decrease Rate, Total Depth]
-levelDifficulty = [0,0,0];
+levelDifficulty = 7; //Default 7
+
+//------------------BATTLE VARIABLES-------------------------
+folderSpawnSize = 7; //Default 7
+battleDepth = 3; //Default 3
+
+
+function resetBattleVariables()
+{
+	folderSpawnSize = 7; //Default 7
+	battleDepth = 3; //Default 3
+}
 

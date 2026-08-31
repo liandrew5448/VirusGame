@@ -6,5 +6,6 @@ _switcher.enemy_data = other.id;
 _switcher.original_room = room;
 
 instance_destroy(oBadNPC);
-oGameManager.levelDifficulty = [7,2,3];
+oGameManager.folderSpawnSize = 12;
+oGameManager.battleDepth = 3;
 room_goto(TestBattle);

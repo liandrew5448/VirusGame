@@ -4,13 +4,12 @@ folderList = [folderPosition1, folderPosition2, folderPosition3, folderPosition4
 			folderPosition11, folderPosition12, folderPosition13, folderPosition14, folderPosition15,
 			folderPosition16, folderPosition17, folderPosition18, folderPosition19, folderPosition20];
 
-maxFolders = oGameManager.levelDifficulty[0];
-currentState = oGameManager.levelDifficulty;
+fNumSpawn = oGameManager.folderSpawnSize;
+currentDepth = oGameManager.battleDepth; // 1 = lowest level
 
-//depth, folder #,
-goalFolder = [irandom(maxFolders),]; 
+goalState = -1;
 
-function generateLevel()
+function generateLevel(fNumVar)
 {
 	oPlayerSelector.x = folderPosition1.x;
 	oPlayerSelector.y = folderPosition1.y;
@@ -18,12 +17,14 @@ function generateLevel()
 	show_debug_message("===== FOLDER GENERATION =====");
 	
 	//implimenting the folder generation
-	for(var i = 0; i < currentState[0]; i++)
+	for(var i = 0; i < fNumVar; i++)
 	{
 		instance_create_layer(folderList[i].x, folderList[i].y, "Instances",oFolder);
 		show_debug_message("Creating folder " + string(i + 1));
 	}
-
+	
+	goalState = irandom_range(1,fNumVar);
+	show_debug_message("Selecting Infected Folder: " + string(goalState));
 }
 
-generateLevel();
+generateLevel(fNumSpawn);
